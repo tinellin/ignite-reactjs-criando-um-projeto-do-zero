@@ -1,1 +1,17 @@
-// TODO
+.headerWrapper {
+  height: 5rem;
+}
+
+.headerContent {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 0;
+
+  img {
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.75);
+    }
+  }
+}

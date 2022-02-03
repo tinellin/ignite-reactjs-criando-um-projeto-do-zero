@@ -1,1 +1,67 @@
-// TODO
+.postWrapper {
+  .banner {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 0 0 0;
+
+    img {
+      width: 50%;
+      height: 25rem;
+    }
+  }
+}
+
+.postContentWrapper {
+  header {
+    h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      margin-top: 3rem;
+    }
+
+    .postInfos {
+      display: flex;
+      gap: 1.5rem;
+      margin: 1.5rem 0 3.5rem 0;
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.25rem;
+
+        color: var(--gray-200);
+      }
+    }
+  }
+
+  main {
+    .postContent {
+      margin-bottom: 3.5rem;
+
+      h1 {
+        font-size: 2.25rem;
+        margin-bottom: 2.5rem;
+      }
+
+      p {
+        color: var(--gray-300);
+        font-size: 1rem;
+        text-align: justify;
+      }
+
+      img {
+        max-width: 720px;
+      }
+
+      ul {
+        color: var(--gray-300);
+
+        li {
+          margin: 1.5rem 0 1.5rem 0;
+          text-align: justify;
+        }
+      }
+    }
+  }
+}
